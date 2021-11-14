@@ -1,8 +1,21 @@
 import "./App.css";
 import React from "react";
-import Game from "./components/Game";
 
-const App = () => {
-  <Game />;
-};
+
+function App() {
+  return (
+    <div className="App">
+      <h1>TIC TAC TOE GAME</h1>
+      <Board />
+    </div>
+  );
+}
+
+
 export default App;
+
+
+
+
+
+

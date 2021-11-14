@@ -1,12 +1,13 @@
 import React from 'react'
 
-const square = ({value, onClick}) => {
-    const style = value ? `squares ${value}` : 'squares';
+
+function Square() {
     return (
-        <button className = {style} onClick={onClick}>
-             {value} 
-        </button>
+        <div>
+            SQUARE
+            
+        </div>
     )
 }
 
-export default square
+export default Square
