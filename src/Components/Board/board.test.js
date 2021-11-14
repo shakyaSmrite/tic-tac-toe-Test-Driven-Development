@@ -1,7 +1,10 @@
-import React from 'react';
-import Board from './board'
-import {shallow} from 'enzyme'
+import React from "react";
+import Board from "./board";
+import { shallow } from "enzyme";
 
-it ('Renders successfully without crashing', () => {
+describe("Board", () => {
+  //it global functions by jest
+  it("Renders successfully without crashing", () => {
     shallow(<Board />);
-})
+  });
+});
