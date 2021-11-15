@@ -1,5 +1,5 @@
 import React from "react";
-import Square from "./../Square/square";
+// import Square from "./../Square/square";
 
 function Board() {
   return (
